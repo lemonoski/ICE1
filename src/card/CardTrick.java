@@ -38,5 +38,9 @@ public class CardTrick {
         System.out.print("Enter suit (0=Hearts, 1=Diamonds, 2=Spades, 3=Clubs): ");
         int suitChoice = input.nextInt();
     }
+
+    Card luckyCard = new Card();
+    luckyCard.setValue(2);
+    luckyCard.setSuit("Clubs");
     
 }
